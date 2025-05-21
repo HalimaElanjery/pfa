@@ -1,0 +1,42 @@
+
+installer composer sur pc
+
+telecharer xampp php 8.1   ou plus
+copie coller path dans variable d'environement
+
+telecharger node js : 7.24.2 ou plus
+copie coller path dans variable d'environement
+
+
+npm install -g npm@7.24.2
+
+--------------------------------
+
+ouvrir xampp start apache et start mysql,
+
+ouvrir php myadmin cree nouveau database sous le nom :  doctor
+
+ouvrir visual studio ouvrir le dossier du projet :
+
+
+ouvrir terminal et tappez : cd backend ----> et tappez : php artisan migrate.
+
+ouvrir terminal et tappez : cd backend ----> et tappez : php artisan db:seed    pour cree compte par default du {doctor(admin)} et secretaire.
+
+ouvrir terminal et tappez : cd backend ----> et tappez : php artisan serve.
+
+ouvrir terminal et tappez : cd frontend----> et tappez : npm start.
+
+voila la racine pour login :  http://localhost:3000/login
+
+
+email doctor: admin@example.com
+
+password : 123456789
+
+-------------------
+
+email secretaire: secretaire@example.com
+
+password : 987654321
+
